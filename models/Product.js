@@ -30,7 +30,7 @@ Product.init(
       defaultValue: 0,
     },
     category_id: {
-      type: DataTypes.DOUBLE.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: "category",
